@@ -52,7 +52,7 @@ public class ClienteChat extends JFrame {
         gbc.weightx = 1;
         gbc.weighty = 1;
         gbc.fill = GridBagConstraints.BOTH;
-        c.add(scrollMensajesChat, gbc);
+        //c.add(scrollMensajesChat, gbc);
     
         gbc.gridwidth = 1;        
         gbc.weighty = 0;
@@ -120,7 +120,7 @@ public class ClienteChat extends JFrame {
     
     public static void main(String[] args) {
         ClienteChat c = new ClienteChat();
-        c.recibirMensajesServidor();
+        //c.recibirMensajesServidor();
     }
 
 }  
